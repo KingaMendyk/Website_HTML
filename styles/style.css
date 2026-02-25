@@ -34,7 +34,7 @@
     font-display: swap;
 }
 
-body {
+html {
     font-family: "Lato", "Arial", sans-serif;
 }
 
@@ -43,4 +43,43 @@ h2,
 h3,
 h4 {
     font-family: "Buda", "Times", serif;
+    font-weight: 500;
+}
+
+body {
+    color: #E8E8E8;
+    background-color: #06000D;
+    line-height: 1.5;
+}
+
+nav {
+    background: #06000D;
+    position: sticky;
+    top: 0;
+    line-height:2;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: "Buda", "Times", serif;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    padding: 0.5em;
+}
+
+nav a:hover,
+nav a:focus {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 0.5em;
+    background-color: #74AA63;
 }

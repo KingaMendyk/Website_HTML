@@ -79,6 +79,10 @@ nav ul{
     justify-content: space-around;
 }
 
+nav li {
+    width: 15%;
+}
+
 nav a {
     display: block;
     text-decoration: none;
@@ -86,6 +90,7 @@ nav a {
     font-size: 1.2rem;
     color: whitesmoke;
     padding: 0.5em;
+    text-align: center;
 }
 
 nav a:hover,

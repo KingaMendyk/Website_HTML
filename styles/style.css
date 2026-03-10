@@ -49,16 +49,25 @@ h4 {
 /* General */
 body {
     color: #E8E8E8;
-    background-color: #06000D;
+    background-color: #0B0B0B;
     line-height: 1.5;
+}
+
+main {
+    margin: 1em;
+    padding: 1em;
+}
+
+h1,
+h2 {
+    text-align: center;
 }
 
 /* Navigation */
 nav {
-    background: #06000D;
+    background: #0B0B0B;
     position: sticky;
     top: 0;
-    line-height:2;
 }
 
 nav ul{
@@ -71,6 +80,7 @@ nav ul{
 }
 
 nav a {
+    display: block;
     text-decoration: none;
     font-family: "Buda", "Times", serif;
     font-size: 1.2rem;
@@ -89,8 +99,34 @@ nav a:focus {
 /* Header */
 
 
-/* List */
+/* List container */
+.horizontal-container {
+    display: flex;
+    flex-direction: row;
+}
 
+.skill-container {
+    flex: 1;
+    background: #2E4527;
+    border-radius: 1em;
+    padding: 0.1em 1em;
+    margin: 0.5em;
+}
+
+.skill-icons {
+    
+}
+
+.skill-icons ul {
+    list-style: none;
+    line-height: 1em;
+    padding: 0;
+}
+
+.skill-icons li {
+    display: inline-block;
+    margin: 1em;
+}
 
 /* Sections */
 
@@ -100,6 +136,8 @@ footer {
     background: #74AA63;
     text-align: center;
     line-height: 2;
+    padding: 0;
+    margin: 0;
 }
 
 footer p {

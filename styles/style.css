@@ -105,16 +105,17 @@ nav a:focus {
     flex-direction: row;
 }
 
+.vertical-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .skill-container {
     flex: 1;
     background: #2E4527;
     border-radius: 1em;
     padding: 0.1em 1em;
     margin: 0.5em;
-}
-
-.skill-icons {
-    
 }
 
 .skill-icons ul {
@@ -126,6 +127,12 @@ nav a:focus {
 .skill-icons li {
     display: inline-block;
     margin: 1em;
+}
+
+.skill-list ul {
+    line-height: 2em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 /* Sections */

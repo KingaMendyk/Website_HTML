@@ -55,7 +55,7 @@ body {
 
 main {
     margin: 1em;
-    padding: 1em;
+    padding: 5em;
 }
 
 h1,
@@ -133,6 +133,24 @@ nav a:focus {
     line-height: 2em;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+}
+
+/* Project container */
+.project-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #2E4527;
+    border-radius: 2em;
+    padding: 0.1em 0 0.1em 1em;
+    margin: 1em;
+    overflow: hidden;
+}
+
+.project-container img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* Sections */
